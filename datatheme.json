@@ -1,0 +1,11 @@
+{
+    "name": "mackenzie.pmd",
+    "version": "1.0.1",
+    "repository": "http://github.com/tesera/datatheme-mackenzie-pmd.git",
+    "author": "Yves Richard",
+    "description": "Datatheme for Mackenzie Basin PMD data.",
+    "schemas": [
+        "./schemas/pmd_data.json",
+        "./schemas/pmd_meta.json"    
+    ]
+}

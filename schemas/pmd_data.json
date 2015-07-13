@@ -1,0 +1,422 @@
+{
+    "name": "pmd_data",
+    "path": "pmd_data.csv",
+    "schema": {
+        "fields": [
+            {
+                "name": "lab_id",
+                "type": "string",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "location",
+                "type": "string",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "cbm_location",
+                "type": "string",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "in_date",
+                "type": "date",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "out_date",
+                "type": "date",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "count_days",
+                "type": "integer",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "parent_pahs",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "naphthalene",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "biphenyl",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "acenaphthylene",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "acenaphtene",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "fluorene",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "dibenzothiophene",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "phenanthrene",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "anthracene",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "fluoranthene",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "pyrene",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "benz_a_anthracene",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "chrysene",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "benzo_b_fluoranthene",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "benzo_k_fluoranthene",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "benzo_a_pyrene",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "indeno_pyrene",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "dibenzo_a_h_anthracene",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "benzo_perylene",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "total_parent_pahs",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "semi_quant_alkylated_pahs",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "c1_naphthalene",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "c2_naphthalene",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "c3_naphthalene",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "c4_naphthalene",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "c1_fluorene",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "c2_fluorene",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "c3_fluorene",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "c4_fluorene",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "c1_dibenzothiophene",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "c2_dibenzothiophene",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "c3_dibenzothiophene",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "c4_dibenzothiophene",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "c1_phenanthrene_anthracene",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "c2_phenanthrene_anthracene",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "c3_phenanthrene_anthracene",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "c4_phenanthrene_anthracene",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "c1_fluoranthenes_pyrenes",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "c2_fluoranthenes_pyrenes",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "c3_fluoranthenes_pyrenes",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "c4_fluoranthenes_pyrenes",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "c1_chrysene",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "c2_chrysene",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "c3_chrysene",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "c4_chrysene",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            }
+        ]
+    },
+    "primaryKey": [
+        "lab_id",
+        "cbm_location",
+        "in_date",
+        "out_date"
+    ]
+}
