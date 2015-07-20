@@ -12,6 +12,22 @@
                 }
             },
             {
+                "name": "date_in",
+                "type": "date",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "date_out",
+                "type": "date",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
                 "name": "location",
                 "type": "string",
                 "constraints": {
@@ -27,22 +43,7 @@
                     "type": true
                 }
             },
-            {
-                "name": "in_date",
-                "type": "date",
-                "constraints": {
-                    "required": true,
-                    "type": true
-                }
-            },
-            {
-                "name": "out_date",
-                "type": "date",
-                "constraints": {
-                    "required": true,
-                    "type": true
-                }
-            },
+            
             {
                 "name": "count_days",
                 "type": "integer",
