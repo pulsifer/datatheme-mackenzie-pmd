@@ -6,410 +6,404 @@
             {
                 "name": "lab_id",
                 "type": "string",
+                "raises": "warning",
                 "constraints": {
                     "required": true,
-                    "type": true
-                }
-            },
-            {
-                "name": "date_in",
-                "type": "date",
-                "constraints": {
-                    "required": true,
-                    "type": true
-                }
-            },
-            {
-                "name": "date_out",
-                "type": "date",
-                "constraints": {
-                    "required": true,
-                    "type": true
-                }
-            },
-            {
-                "name": "location",
-                "type": "string",
-                "constraints": {
-                    "required": true,
-                    "type": true
+                    "maxLength": 25
                 }
             },
             {
                 "name": "cbm_location",
                 "type": "string",
+                "raises": "error",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "required": true
                 }
             },
-            
+            {
+                "name": "date_in",
+                "type": "date",
+                "raises": "warning",
+                "constraints": {
+                    "required": true
+                }
+            },
+            {
+                "name": "date_out",
+                "type": "date",
+                "raises": "warning",
+                "constraints": {
+                    "required": true
+                }
+            },            
             {
                 "name": "count_days",
-                "type": "integer",
+                "type": "numeric",
+                "raises": "warning",
                 "constraints": {
                     "required": true,
-                    "type": true
+                    "minimum": 0,
+                    "maximum": 60
                 }
             },
             {
                 "name": "parent_pahs",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "naphthalene",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "biphenyl",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "acenaphthylene",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "acenaphtene",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "fluorene",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "dibenzothiophene",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "phenanthrene",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "anthracene",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "fluoranthene",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "pyrene",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "benz_a_anthracene",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "chrysene",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "benzo_b_fluoranthene",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "benzo_k_fluoranthene",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "benzo_a_pyrene",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "indeno_pyrene",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "dibenzo_a_h_anthracene",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "benzo_perylene",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "total_parent_pahs",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "semi_quant_alkylated_pahs",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "c1_naphthalene",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "c2_naphthalene",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "c3_naphthalene",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "c4_naphthalene",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "c1_fluorene",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "c2_fluorene",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "c3_fluorene",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "c4_fluorene",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "c1_dibenzothiophene",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "c2_dibenzothiophene",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "c3_dibenzothiophene",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "c4_dibenzothiophene",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "c1_phenanthrene_anthracene",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "c2_phenanthrene_anthracene",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "c3_phenanthrene_anthracene",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "c4_phenanthrene_anthracene",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "c1_fluoranthenes_pyrenes",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "c2_fluoranthenes_pyrenes",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "c3_fluoranthenes_pyrenes",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "c4_fluoranthenes_pyrenes",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "c1_chrysene",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "c2_chrysene",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "c3_chrysene",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "c4_chrysene",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             }
         ]
