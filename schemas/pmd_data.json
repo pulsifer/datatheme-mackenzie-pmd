@@ -38,7 +38,7 @@
             },            
             {
                 "name": "count_days",
-                "type": "numeric",
+                "type": "number",
                 "raises": "warning",
                 "constraints": {
                     "required": true,
@@ -48,7 +48,7 @@
             },
             {
                 "name": "parent_pahs",
-                "type": "numeric",
+                "type": "number",
                 "raises": "warning",
                 "constraints": {
                     "minimum": 0
@@ -56,7 +56,7 @@
             },
             {
                 "name": "naphthalene",
-                "type": "numeric",
+                "type": "number",
                 "raises": "warning",
                 "constraints": {
                     "minimum": 0
@@ -64,7 +64,7 @@
             },
             {
                 "name": "biphenyl",
-                "type": "numeric",
+                "type": "number",
                 "raises": "warning",
                 "constraints": {
                     "minimum": 0
@@ -72,7 +72,7 @@
             },
             {
                 "name": "acenaphthylene",
-                "type": "numeric",
+                "type": "number",
                 "raises": "warning",
                 "constraints": {
                     "minimum": 0
@@ -80,7 +80,7 @@
             },
             {
                 "name": "acenaphtene",
-                "type": "numeric",
+                "type": "number",
                 "raises": "warning",
                 "constraints": {
                     "minimum": 0
@@ -88,7 +88,7 @@
             },
             {
                 "name": "fluorene",
-                "type": "numeric",
+                "type": "number",
                 "raises": "warning",
                 "constraints": {
                     "minimum": 0
@@ -96,7 +96,7 @@
             },
             {
                 "name": "dibenzothiophene",
-                "type": "numeric",
+                "type": "number",
                 "raises": "warning",
                 "constraints": {
                     "minimum": 0
@@ -104,7 +104,7 @@
             },
             {
                 "name": "phenanthrene",
-                "type": "numeric",
+                "type": "number",
                 "raises": "warning",
                 "constraints": {
                     "minimum": 0
@@ -112,7 +112,7 @@
             },
             {
                 "name": "anthracene",
-                "type": "numeric",
+                "type": "number",
                 "raises": "warning",
                 "constraints": {
                     "minimum": 0
@@ -120,7 +120,7 @@
             },
             {
                 "name": "fluoranthene",
-                "type": "numeric",
+                "type": "number",
                 "raises": "warning",
                 "constraints": {
                     "minimum": 0
@@ -128,7 +128,7 @@
             },
             {
                 "name": "pyrene",
-                "type": "numeric",
+                "type": "number",
                 "raises": "warning",
                 "constraints": {
                     "minimum": 0
@@ -136,7 +136,7 @@
             },
             {
                 "name": "benz_a_anthracene",
-                "type": "numeric",
+                "type": "number",
                 "raises": "warning",
                 "constraints": {
                     "minimum": 0
@@ -144,7 +144,7 @@
             },
             {
                 "name": "chrysene",
-                "type": "numeric",
+                "type": "number",
                 "raises": "warning",
                 "constraints": {
                     "minimum": 0
@@ -152,7 +152,7 @@
             },
             {
                 "name": "benzo_b_fluoranthene",
-                "type": "numeric",
+                "type": "number",
                 "raises": "warning",
                 "constraints": {
                     "minimum": 0
@@ -160,7 +160,7 @@
             },
             {
                 "name": "benzo_k_fluoranthene",
-                "type": "numeric",
+                "type": "number",
                 "raises": "warning",
                 "constraints": {
                     "minimum": 0
@@ -168,7 +168,7 @@
             },
             {
                 "name": "benzo_a_pyrene",
-                "type": "numeric",
+                "type": "number",
                 "raises": "warning",
                 "constraints": {
                     "minimum": 0
@@ -176,7 +176,7 @@
             },
             {
                 "name": "indeno_pyrene",
-                "type": "numeric",
+                "type": "number",
                 "raises": "warning",
                 "constraints": {
                     "minimum": 0
@@ -184,7 +184,7 @@
             },
             {
                 "name": "dibenzo_a_h_anthracene",
-                "type": "numeric",
+                "type": "number",
                 "raises": "warning",
                 "constraints": {
                     "minimum": 0
@@ -192,7 +192,7 @@
             },
             {
                 "name": "benzo_perylene",
-                "type": "numeric",
+                "type": "number",
                 "raises": "warning",
                 "constraints": {
                     "minimum": 0
@@ -200,7 +200,7 @@
             },
             {
                 "name": "total_parent_pahs",
-                "type": "numeric",
+                "type": "number",
                 "raises": "warning",
                 "constraints": {
                     "minimum": 0
@@ -208,7 +208,7 @@
             },
             {
                 "name": "semi_quant_alkylated_pahs",
-                "type": "numeric",
+                "type": "number",
                 "raises": "warning",
                 "constraints": {
                     "minimum": 0
@@ -216,7 +216,7 @@
             },
             {
                 "name": "c1_naphthalene",
-                "type": "numeric",
+                "type": "number",
                 "raises": "warning",
                 "constraints": {
                     "minimum": 0
@@ -224,7 +224,7 @@
             },
             {
                 "name": "c2_naphthalene",
-                "type": "numeric",
+                "type": "number",
                 "raises": "warning",
                 "constraints": {
                     "minimum": 0
@@ -232,7 +232,7 @@
             },
             {
                 "name": "c3_naphthalene",
-                "type": "numeric",
+                "type": "number",
                 "raises": "warning",
                 "constraints": {
                     "minimum": 0
@@ -240,7 +240,7 @@
             },
             {
                 "name": "c4_naphthalene",
-                "type": "numeric",
+                "type": "number",
                 "raises": "warning",
                 "constraints": {
                     "minimum": 0
@@ -248,7 +248,7 @@
             },
             {
                 "name": "c1_fluorene",
-                "type": "numeric",
+                "type": "number",
                 "raises": "warning",
                 "constraints": {
                     "minimum": 0
@@ -256,7 +256,7 @@
             },
             {
                 "name": "c2_fluorene",
-                "type": "numeric",
+                "type": "number",
                 "raises": "warning",
                 "constraints": {
                     "minimum": 0
@@ -264,7 +264,7 @@
             },
             {
                 "name": "c3_fluorene",
-                "type": "numeric",
+                "type": "number",
                 "raises": "warning",
                 "constraints": {
                     "minimum": 0
@@ -272,7 +272,7 @@
             },
             {
                 "name": "c4_fluorene",
-                "type": "numeric",
+                "type": "number",
                 "raises": "warning",
                 "constraints": {
                     "minimum": 0
@@ -280,7 +280,7 @@
             },
             {
                 "name": "c1_dibenzothiophene",
-                "type": "numeric",
+                "type": "number",
                 "raises": "warning",
                 "constraints": {
                     "minimum": 0
@@ -288,7 +288,7 @@
             },
             {
                 "name": "c2_dibenzothiophene",
-                "type": "numeric",
+                "type": "number",
                 "raises": "warning",
                 "constraints": {
                     "minimum": 0
@@ -296,7 +296,7 @@
             },
             {
                 "name": "c3_dibenzothiophene",
-                "type": "numeric",
+                "type": "number",
                 "raises": "warning",
                 "constraints": {
                     "minimum": 0
@@ -304,7 +304,7 @@
             },
             {
                 "name": "c4_dibenzothiophene",
-                "type": "numeric",
+                "type": "number",
                 "raises": "warning",
                 "constraints": {
                     "minimum": 0
@@ -312,7 +312,7 @@
             },
             {
                 "name": "c1_phenanthrene_anthracene",
-                "type": "numeric",
+                "type": "number",
                 "raises": "warning",
                 "constraints": {
                     "minimum": 0
@@ -320,7 +320,7 @@
             },
             {
                 "name": "c2_phenanthrene_anthracene",
-                "type": "numeric",
+                "type": "number",
                 "raises": "warning",
                 "constraints": {
                     "minimum": 0
@@ -328,7 +328,7 @@
             },
             {
                 "name": "c3_phenanthrene_anthracene",
-                "type": "numeric",
+                "type": "number",
                 "raises": "warning",
                 "constraints": {
                     "minimum": 0
@@ -336,7 +336,7 @@
             },
             {
                 "name": "c4_phenanthrene_anthracene",
-                "type": "numeric",
+                "type": "number",
                 "raises": "warning",
                 "constraints": {
                     "minimum": 0
@@ -344,7 +344,7 @@
             },
             {
                 "name": "c1_fluoranthenes_pyrenes",
-                "type": "numeric",
+                "type": "number",
                 "raises": "warning",
                 "constraints": {
                     "minimum": 0
@@ -352,7 +352,7 @@
             },
             {
                 "name": "c2_fluoranthenes_pyrenes",
-                "type": "numeric",
+                "type": "number",
                 "raises": "warning",
                 "constraints": {
                     "minimum": 0
@@ -360,7 +360,7 @@
             },
             {
                 "name": "c3_fluoranthenes_pyrenes",
-                "type": "numeric",
+                "type": "number",
                 "raises": "warning",
                 "constraints": {
                     "minimum": 0
@@ -368,7 +368,7 @@
             },
             {
                 "name": "c4_fluoranthenes_pyrenes",
-                "type": "numeric",
+                "type": "number",
                 "raises": "warning",
                 "constraints": {
                     "minimum": 0
@@ -376,7 +376,7 @@
             },
             {
                 "name": "c1_chrysene",
-                "type": "numeric",
+                "type": "number",
                 "raises": "warning",
                 "constraints": {
                     "minimum": 0
@@ -384,7 +384,7 @@
             },
             {
                 "name": "c2_chrysene",
-                "type": "numeric",
+                "type": "number",
                 "raises": "warning",
                 "constraints": {
                     "minimum": 0
@@ -392,7 +392,7 @@
             },
             {
                 "name": "c3_chrysene",
-                "type": "numeric",
+                "type": "number",
                 "raises": "warning",
                 "constraints": {
                     "minimum": 0
@@ -400,18 +400,12 @@
             },
             {
                 "name": "c4_chrysene",
-                "type": "numeric",
+                "type": "number",
                 "raises": "warning",
                 "constraints": {
                     "minimum": 0
                 }
             }
         ]
-    },
-    "primaryKey": [
-        "lab_id",
-        "cbm_location",
-        "in_date",
-        "out_date"
-    ]
+    }
 }
