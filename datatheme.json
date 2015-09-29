@@ -4,8 +4,20 @@
     "repository": "http://github.com/tesera/datatheme-mackenzie-pmd.git",
     "author": "Yves Richard",
     "description": "Datatheme for Mackenzie Basin PMD data.",
-    "schemas": [
-        "./schemas/pmd_data.json",
-        "./schemas/pmd_meta.json"    
-    ]
+    "resources": [
+    {
+      "name": "pmd_data",
+      "title": "PMD Data",
+      "path": "pmd_data.csv",
+      "validator": "http://s3.amazonaws.com/tesera.data.themes/mackenzie.pmd/awk/pmd_data.awk",
+      "schema": "./schemas/pmd_data.json"
+    },
+    {
+      "name": "pmd_meta",
+      "title": "PMD Meta",
+      "path": "pmd_meta.csv",
+      "validator": "http://s3.amazonaws.com/tesera.data.themes/mackenzie.pmd/awk/pmd_meta.awk",
+      "schema": "./schemas/pmd_meta.json"
+    }
+  ]
 }
