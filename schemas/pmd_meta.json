@@ -2,7 +2,7 @@
   "fields": [
     {
       "name": "fileIdentifier",
-      "title": "Data theme unique identifier",
+      "title": "Data theme unique id",
       "type": "string",
       "raises": "error",
       "constraints": {
