@@ -1,8 +1,8 @@
 {
   "fields": [
     {
-      "name": "title",
-      "title": "Title",
+      "name": "fileIdentifier",
+      "title": "Data theme unique identifier",
       "type": "string",
       "raises": "error",
       "constraints": {
@@ -10,8 +10,35 @@
       }
     },
     {
-      "name": "description",
+      "name": "InitiationDateStamp",
+      "title": "Date of project initiation",
+      "type": "string",
+      "raises": "error",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "title",
+      "title": "Program title",
+      "type": "string",
+      "raises": "error",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "abstract",
       "title": "Description",
+      "type": "string",
+      "raises": "error",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "purpose",
+      "title": "Purpose",
       "type": "string",
       "raises": "error",
       "constraints": {
@@ -28,16 +55,16 @@
       }
     },
     {
-      "name": "extents",
-      "title": "Extents",
+      "name": "EX_GeographicBoundingBox",
+      "title": "Geographic extents",
       "type": "string",
       "constraints": {
         "required": true
       }
     },
     {
-      "name": "citations",
-      "title": "Citations",
+      "name": "citation",
+      "title": "Data citation",
       "type": "string",
       "raises": "error",
       "constraints": {
@@ -45,8 +72,44 @@
       }
     },
     {
-      "name": "keywords",
+      "name": "descriptiveKeywords",
       "title": "Keywords",
+      "type": "string",
+      "raises": "error",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "organisationName",
+      "title": "Name of organization that collected data",
+      "type": "string",
+      "raises": "error",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "individualName",
+      "title": "Organizational contact name",
+      "type": "string",
+      "raises": "error",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "CI_Telephone",
+      "title": "Organizational contact phone number",
+      "type": "string",
+      "raises": "error",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "electronicMailAddress",
+      "title": "Organizational email address",
       "type": "string",
       "raises": "error",
       "constraints": {
